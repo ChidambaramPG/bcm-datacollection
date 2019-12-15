@@ -4,124 +4,81 @@
       <div class="row table-row">
         <div class="col-md-12">
           <h5 class="table-title">Latest additions</h5>
-          <table class="table table-hover">
-            <thead class="table-head">
-              <tr>
-                <th>Card</th>
-                <th>Company Name</th>
-                <th>Address</th>
-                <th>Contact Person</th>
-                <th>Phone No</th>
-                <th>Added By</th>
-                <th>Action</th>
-                <th>Tags</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <img class="card-img img-responsive" src="https://www.digitalprinting.co.uk/media/images/products/slides/2/business-cards-1.jpg"/>
-                </td>
-                <td>
-                  We Care Services
-                </td>
-                <td>QBits Building, Vytilla Junction, Kerala</td>
-                <td>Rahul</td>
-                <td>555-777-3434</td>
-                <td>Administrator</td>
-                <td>
-                  <a href="" @click.prevent="()=>showEditCard()"><i class="fas fa-edit text-success"></i></a>
-                  <a href="" @click.prevent="()=>showDeleteCardModal()"><i class="fas fa-times text-danger"></i></a>
-                </td>
-                <td>
-                    <p><span class="badge badge-info">Laptop Service</span> </p>
-                    <p><span class="badge badge-info">Mobile Service</span></p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img class="card-img img-responsive" src="https://www.digitalprinting.co.uk/media/images/products/slides/2/business-cards-1.jpg"/>
-                </td>
-                <td>
-                  We Care Services
-                </td>
-                <td>QBits Building, Vytilla Junction, Kerala</td>
-                <td>Rahul</td>
-                <td>555-777-3434</td>
-                <td>Administrator</td>
-                <td>
-                  <a href="" @click.prevent="()=>showEditCard()"><i class="fas fa-edit text-success"></i></a>
-                  <a href="" @click.prevent="()=>showDeleteCardModal()"><i class="fas fa-times text-danger"></i></a>
-                </td>
-                <td>
-                    <p><span class="badge badge-info">Laptop Service</span> </p>
-                    <p><span class="badge badge-info">Mobile Service</span></p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img class="card-img img-responsive" src="https://www.digitalprinting.co.uk/media/images/products/slides/2/business-cards-1.jpg"/>
-                </td>
-                <td>
-                  We Care Services
-                </td>
-                <td>QBits Building, Vytilla Junction, Kerala</td>
-                <td>Rahul</td>
-                <td>555-777-3434</td>
-                <td>Administrator</td>
-                <td>
-                  <a href="" @click.prevent="()=>showEditCard()"><i class="fas fa-edit text-success"></i></a>
-                  <a href="" @click.prevent="()=>showDeleteCardModal()"><i class="fas fa-times text-danger"></i></a>
-                </td>
-                <td>
-                    <p><span class="badge badge-info">Laptop Service</span> </p>
-                    <p><span class="badge badge-info">Mobile Service</span></p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img class="card-img img-responsive" src="https://www.digitalprinting.co.uk/media/images/products/slides/2/business-cards-1.jpg"/>
-                </td>
-                <td>
-                  We Care Services
-                </td>
-                <td>QBits Building, Vytilla Junction, Kerala</td>
-                <td>Rahul</td>
-                <td>555-777-3434</td>
-                <td>Administrator</td>
-                <td>
-                  <a href="" @click.prevent="()=>showEditCard()"><i class="fas fa-edit text-success"></i></a>
-                  <a href="" @click.prevent="()=>showDeleteCardModal()"><i class="fas fa-times text-danger"></i></a>
-                </td>
-                <td>
-                    <p><span class="badge badge-info">Laptop Service</span> </p>
-                    <p><span class="badge badge-info">Mobile Service</span></p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img class="card-img img-responsive" src="https://www.digitalprinting.co.uk/media/images/products/slides/2/business-cards-1.jpg"/>
-                </td>
-                <td>
-                  We Care Services
-                </td>
-                <td>QBits Building, Vytilla Junction, Kerala</td>
-                <td>Rahul</td>
-                <td>555-777-3434</td>
-                <td>Administrator</td>
-                <td>
-                  <a href="" @click.prevent="()=>showEditCard()"><i class="fas fa-edit text-success"></i></a>
-                  <a href="" @click.prevent="()=>showDeleteCardModal()"><i class="fas fa-times text-danger"></i></a>
-                </td>
-                <td>
-                    <p><span class="badge badge-info">Laptop Service</span> </p>
-                    <p><span class="badge badge-info">Mobile Service</span></p>
-                </td>
-              </tr>
-             
-              
-            </tbody>
-          </table>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" @click.prevent="showEditCard">
+                <img
+                  class="card-img img-responsive"
+                  src="../../../assets/img/card.jpg"
+                />
+              </a>
+            </div>
+            
+          </div>
         </div>
       </div>
     </div>
@@ -211,6 +168,7 @@ li.page-item.active>a{
   border-color: transparent;
 }
 .card-img{
-  width:200px;
+  width:100%;
+  margin:10px;
 }
 </style>

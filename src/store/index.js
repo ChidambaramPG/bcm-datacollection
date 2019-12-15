@@ -18,7 +18,7 @@ export default new Vuex.Store({
     sidebarVisible:true,
 
     // page views
-    activePage:'dashboard',
+    activePage:'cards',
     categorySubTag:'all',
     cardsSecton:'table',
     usersSection:'table',

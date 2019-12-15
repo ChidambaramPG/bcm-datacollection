@@ -22,6 +22,8 @@ export default {
     setContentLayout: page => {
       // console.log("setting page", page);
       store.commit("setActivePage", page);
+      store.commit("setCardsSection", 'table');
+
     },
     convertName(name){
       return name.charAt(0).toUpperCase()+name.slice(1)
