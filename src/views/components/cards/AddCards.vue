@@ -16,21 +16,22 @@
 
         <div class="row media-buttons">
           <div class="col-md-6">
-            <button
+            <!-- <button
               class="btn btn-block rounded btn-new"
               @click="showAddNewCardModal"
             >
               <i class="fas fa-camera"></i>
-            </button>
+            </button> -->
+            <input type="file" accept="image/*"/>
           </div>
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <button
               class="btn btn-block rounded btn-new"
               @click="showAddNewCardModal"
             >
               <i class="fas fa-image"></i>
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="col-md-8">

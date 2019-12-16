@@ -117,7 +117,7 @@ export default {
       store.commit('toggleDeleteCardModal')
     },
     showEditCard(){
-      store.commit('setCardsSection','edit');
+      store.commit('setCardsSection','add');
     }
 
   }
